@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-from swx.common import __version__
+from swx_common import __version__
 
 setup(
     name='swx-common',
@@ -8,7 +8,7 @@ setup(
     long_description="""\
 """,
     classifiers=[], # Get strings from http://pypi.python.org/pypi?%3Aaction=list_classifiers
-    namespace_packages=['swx', 'swx.common'],
+    namespace_packages=['swx_common'],
     zip_safe=False,
     author='Ross Jones',
     author_email='ross@mailbolt.com',
